@@ -7,14 +7,18 @@ body{
     overflow-x: hidden;
 }
 .header > h1 {
-    display: inline-block;
+    display: inline;
     position: relative;
     z-index: 1;
-    color: black;
-    top: -110px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    bottom: 110px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.534);
+
 }
+ 
 .titleSecond{
-    color: white;
+    color: rgb(255, 255, 255);
     display: block;
     position: relative;
     top: -80px;
