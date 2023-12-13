@@ -4,80 +4,188 @@
     box-sizing: border-box;
 }
 body{
-    overflow-x: hidden;
-}
-.header > h1 {
-    display: inline;
-    position: relative;
-    z-index: 1;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    bottom: 110px;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.534);
-
-}
- 
-.titleSecond{
-    color: rgb(255, 255, 255);
-    display: block;
-    position: relative;
-    top: -80px;
     background-color: black;
-    text-align: center;
-    height: 50px;
-    padding-top: 13px;
-}
-.button{
-    position: relative;
-    top: 35%;
-    text-decoration: none;
-    color: white;
-    padding: 10px 20px;
-    background-color: blue;
-    border: black solid 2px;
-    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.493);
-}
-.selected{
-    background-color: green;
 }
 .logo{
-    position: relative;
-    z-index: 1;
-    top: 660px;
-    left: 10%;
-    width: 150px;
+    width: 100px;
 }
-.image1{
-    width: 100%;
-    height: 400px;
-    margin-top: -100px;
+header{
+    height: 100vh;
+    background-image: 
+    linear-gradient( rgb(0, 0, 0, 0.548), rgba(0, 0, 0, 0.548) ),
+    url(../img/img1.jpg);
+    background-size: cover;
+    padding-top: 20px;
 }
-
-.text, .data{
-    position: relative;
-    top: 60px;
-    left: 35%;
+h1{
+    text-align: center;
+    width: 330px;
+    background-color: rgba(0, 0, 0, 0.473);
+    border-radius: 30px;
+    color: white;
+}
+.navbar{
+    display: flex;
+    padding: 30px; 
+    align-items: center;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
 }
 nav{
-    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.473);
+    border-radius: 30px;
+    width: 420px;
+    height: 30px;
+}
+.button{
+    text-decoration: none;
+    color: white;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 35px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.titleSecond{
     display: inline-block;
     position: relative;
-    left: 70%;
-    bottom: 435px;
-    height: 70px;
+    bottom: 80px;
+    background-color: rgba(0, 0, 0, 0.473);
+    border-radius: 30px;
+    color: white;
+    width: 300px;
+    text-align: center;
+    padding: 14px;
 }
 .data{
-    width: 60%;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
 }
-.contact{
+.link{
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 160px;
+    text-align: center;
+    display: inline-block;
+}
+.link:hover{
+    color: rgb(53, 53, 250);
+    font-style: italic;
+    font-size: 18px;
+}
+.button:hover{
+    font-weight: bold;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
+}
+.rules{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+}
+.coach{
+    display: inline-block;
     position: relative;
-    top: 120px;
+    left: 50px;
+    padding-bottom: 50px;
+}
+.letter{
+    list-style-type: lower-alpha;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.regulations{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+span{
+    font-weight: bold;
+}
+.sportsmanship{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+}
+.img2{
+    width: 400px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.438);
+}
+main{
+    background-color: rgba(0, 0, 0);
+    color: white;
+}
+.imgrules{
+    display: flex;
+    padding: 50px;
+    gap: 50px;
+    align-content: center;
+}
+.tiltetable{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+.tables{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+.linkall{
+    font-style: italic;
+    color: white;
+}
+.table{
+    display: column;
+}
+.mightytable{
+    display: flex;
+    justify-content: center;
+}
+th, td{
+    border: 2px solid white;
+}
+th{
+    background-color: rgb(131, 129, 129);
+}
+td{
+    background-color: white;
+    color: black;
+}
+.negrita{
+    font-weight: bold;
+    padding-bottom: 50px;
 }
 
-
-
-
-    
-
-
-
+  
